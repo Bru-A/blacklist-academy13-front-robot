@@ -20,7 +20,7 @@ ${botao_primeirapagina}     //button[@id='firstIndexButton']
 
 *** Keywords ***
 Abrir Navegador
-    Open Browser    browser=Chrome    
+    Open Browser    browser=headlessChrome    
     Maximize Browser Window
 
 Fechar Navegador
